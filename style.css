@@ -1,0 +1,58 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    background-color: #f4f4f9;
+}
+h2 {
+    color: #333;
+}
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 320px;
+    margin: 0 auto;
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #555;
+}
+input[type="number"] {
+    width: calc(33.3% - 10px);
+    margin-right: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 16px;
+    outline: none;
+}
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+button:hover {
+    background-color: #0056b3;
+}
+#ageResult {
+    margin-top: 20px;
+    padding: 16px;
+    background-color: #f0f0f5;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 320px;
+    margin: 0 auto;
+}
+#ageResult p {
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+}
